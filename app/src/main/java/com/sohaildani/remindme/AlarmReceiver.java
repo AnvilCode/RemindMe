@@ -34,7 +34,7 @@ public class AlarmReceiver extends BroadcastReceiver {
 		PendingIntent pi = PendingIntent.getActivity(context, 0, new Intent(), 0);
 		Notification n = new NotificationCompat.Builder(context)
 				.setContentTitle("Reminder")
-				.setContentText("")
+				.setContentText(alarm.getName())
 				.setSound(sound)
 				.setContentIntent(pi)
 				.addAction(0,"Take pills on time",pi)
