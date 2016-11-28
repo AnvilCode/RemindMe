@@ -18,7 +18,7 @@
         android:id="@+id/sound_cb"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Play ringtone"
+        android:text="ringtone"
         android:textSize="15dp"/>
 
 </LinearLayout>

@@ -37,7 +37,7 @@ public class AlarmReceiver extends BroadcastReceiver {
 				.setContentText(alarm.getName())
 				.setSound(sound)
 				.setContentIntent(pi)
-				.addAction(0,"Take pills on time",pi)
+				.addAction(0,"Attention you have a new notification",pi)
 				.setSmallIcon(R.drawable.ic_launcher)
 					.build();
 		if (RemindMe.isVibrate()) {

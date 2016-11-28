@@ -10,24 +10,37 @@
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
         android:background="@color/colorAccent" >
-
+		<ImageButton
+			android:id="@+id/imageButton"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_alignParentLeft="true"
+			android:layout_alignParentTop="true"
+			android:paddingTop="10dp"
+			android:paddingBottom="10dp"
+			android:paddingLeft="10dp"
+			android:paddingRight="10dp"
+			android:onClick="onClick"
+			android:background="@null"
+			android:src="@mipmap/ic_launcher" />
         <TextView
             android:id="@+id/heading_tv"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_alignParentLeft="true"
+
             android:layout_alignParentTop="true"
             android:padding="5dp"
 	        android:shadowDx="0"
 	        android:shadowDy="0"
 	        android:shadowRadius="1"
-	        android:shadowColor="#333333"	        
+	        android:shadowColor="#333333"
 	        android:textColor="@color/white"
 	        android:textSize="30dp"
-            android:text="Reminder"
+            android:text=""
 			android:paddingBottom="20dp"
 			android:paddingTop="20dp"
 			android:paddingLeft="10dp"
+
 			/>
 
         <ImageButton
@@ -38,11 +51,11 @@
             android:layout_alignParentTop="true"
             android:paddingTop="10dp"
             android:paddingBottom="10dp"
-            android:paddingLeft="10dp"
+            android:paddingLeft="15dp"
             android:paddingRight="10dp"
             android:onClick="onClick"
             android:background="@null"
-            android:src="@drawable/ic_wrench_white_36dp" />
+            android:src="@drawable/ic_wrench_white_48dp" />
         
         <ImageButton
             android:id="@+id/imageButton2"
@@ -53,10 +66,10 @@
             android:paddingTop="10dp"
             android:paddingBottom="10dp"
             android:paddingLeft="10dp"
-            android:paddingRight="10dp"
+            android:paddingRight="15dp"
             android:onClick="onClick"
             android:background="@null"
-            android:src="@drawable/ic_alarm_plus_white_36dp" />
+            android:src="@drawable/ic_alarm_plus_white_48dp" />
 
     </RelativeLayout>
 
